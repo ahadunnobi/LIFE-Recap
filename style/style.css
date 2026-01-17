@@ -136,3 +136,47 @@ nav > span {
     height: 100%;
     mix-blend-mode: multiply;
 }
+@media screen and (max-width: 425px) {
+  .menu-container {
+    display: none;
+  }
+
+  nav > span {
+    margin-right: 5px;
+    display: inline;
+  }
+
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-right,.banner-left{
+    width: 100%;
+  }
+  .banner-right > img {
+  width: 100%;
+}
+
+
+.tooltip {
+
+ 
+
+  top: 10%;
+  left: 50%;
+}
+
+
+.grid-container{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.box-2{
+    grid-column: auto;
+}
+.box-4{
+    grid-column: auto;
+}
+.box-3,.box-6{
+    display: none;
+}
+}
